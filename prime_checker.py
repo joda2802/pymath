@@ -4,5 +4,5 @@ def is_prime(n):
         return False
     return all(n % i for i in range(3, int(math.sqrt(n)) + 1, 2))
 
-k=int(input('insert Integer'))
+k=int(input('insert Integer:\n'))
 print(is_prime(k))
